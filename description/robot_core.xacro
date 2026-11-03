@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
+<<<<<<< HEAD
     <xacro:include filename="inertial_macros.xacro"/>
+=======
+>>>>>>> 0a22d76d8f6988d0a5f75d85437f249bc7bbabbf
     <material name="white">
         <color rgba="1 1 1 1" />
     </material>
@@ -18,6 +21,7 @@
         <color rgba="0 0 0 1" />
     </material>
 
+<<<<<<< HEAD
     <!-- BASE LINK -->
 
     <link name="base_link">
@@ -144,4 +148,6 @@
         <mu2 value="0.001"/>
     </gazebo>
 
+=======
+>>>>>>> 0a22d76d8f6988d0a5f75d85437f249bc7bbabbf
 </robot>
